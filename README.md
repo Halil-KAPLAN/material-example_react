@@ -8,7 +8,7 @@ https://material-56186.netlify.app
 
 ## Tech Stack
 
-**Client:** React(Vite), Material UI, React Router, Javascript
+**Client:** React(Vite), Material UI, React Router, Typescript
 
 ## Installation
 

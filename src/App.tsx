@@ -2,7 +2,11 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import { LessonButton, LessonTypography } from "./components/Lessons";
+import {
+  LessonButton,
+  LessonButtonGroup,
+  LessonTypography,
+} from "./components/Lessons";
 
 function App() {
   return (
@@ -12,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/typography" element={<LessonTypography />}></Route>
         <Route path="/button" element={<LessonButton />}></Route>
+        <Route path="/buttonGroup" element={<LessonButtonGroup />}></Route>
       </Routes>
     </BrowserRouter>
   );

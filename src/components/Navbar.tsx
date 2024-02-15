@@ -10,6 +10,7 @@ const Navbar = () => {
         <div className="mainLink">
           <Link to="/typography">Typography</Link>
           <Link to="/button">Button</Link>
+          <Link to="/buttonGroup">Button Group</Link>
         </div>
       </div>
     </div>
