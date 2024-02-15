@@ -1,7 +1,8 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Navbar } from "./components/Navbar";
-import { Home, LessonButton, LessonTypography } from "./components/Lessons";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import { LessonButton, LessonTypography } from "./components/Lessons";
 
 function App() {
   return (
