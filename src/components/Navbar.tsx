@@ -11,6 +11,7 @@ const Navbar = () => {
           <Link to="/typography">Typography</Link>
           <Link to="/button">Button</Link>
           <Link to="/buttonGroup">Button Group</Link>
+          <Link to="/textfield">Textfield</Link>
         </div>
       </div>
     </div>

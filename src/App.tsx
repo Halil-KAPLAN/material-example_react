@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import {
   LessonButton,
   LessonButtonGroup,
+  LessonTextfield,
   LessonTypography,
 } from "./components/Lessons";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/typography" element={<LessonTypography />}></Route>
         <Route path="/button" element={<LessonButton />}></Route>
         <Route path="/buttonGroup" element={<LessonButtonGroup />}></Route>
+        <Route path="/textfield" element={<LessonTextfield />}></Route>
       </Routes>
     </BrowserRouter>
   );

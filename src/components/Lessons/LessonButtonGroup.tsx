@@ -3,7 +3,7 @@ import { Button, Stack, ButtonGroup } from "@mui/material";
 const LessonButtonGroup = () => {
   return (
     <>
-      <Stack direction="row">
+      <Stack direction="row" spacing={2} marginBottom={2}>
         <ButtonGroup variant="contained">
           <Button>Button</Button>
           <Button>Button</Button>
