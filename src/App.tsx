@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        {routeList.map(({ path, element }) => (
-          <Route path={path} element={element}></Route>
+        {routeList.map(({ path, element }, i) => (
+          <Route path={path} element={element} key={i}></Route>
         ))}
       </Routes>
     </BrowserRouter>

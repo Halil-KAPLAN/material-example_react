@@ -10,7 +10,12 @@ const Navbar = () => {
         </Link>
         <div className="mainLink">
           {routeList.map(
-            ({ name, path }) => name !== "Home" && <Link to={path}>{name}</Link>
+            ({ name, path }, i) =>
+              name !== "Home" && (
+                <Link to={path} key={i}>
+                  {name}
+                </Link>
+              )
           )}
         </div>
       </div>

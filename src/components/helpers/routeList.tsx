@@ -4,6 +4,7 @@ import {
   LessonButtonGroup,
   LessonRadio,
   LessonRadioGroup,
+  LessonSelect,
   LessonTextfield,
   LessonTypography,
 } from "../Lessons";
@@ -22,6 +23,7 @@ const routeList: RouteList[] = [
   { name: "Textfield", path: "/textfield", element: <LessonTextfield /> },
   { name: "Radio", path: "/radio", element: <LessonRadio /> },
   { name: "RadioGroup", path: "/radioGroup", element: <LessonRadioGroup /> },
+  { name: "Select", path: "/select", element: <LessonSelect /> },
 ];
 
 export default routeList;
