@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import routeList from "./helpers/routeList";
 
 const Navbar = () => {
   return (
@@ -8,10 +9,9 @@ const Navbar = () => {
           <p>Lessons:</p>
         </Link>
         <div className="mainLink">
-          <Link to="/typography">Typography</Link>
-          <Link to="/button">Button</Link>
-          <Link to="/buttonGroup">Button Group</Link>
-          <Link to="/textfield">Textfield</Link>
+          {routeList.map(
+            ({ name, path }) => name !== "Home" && <Link to={path}>{name}</Link>
+          )}
         </div>
       </div>
     </div>
