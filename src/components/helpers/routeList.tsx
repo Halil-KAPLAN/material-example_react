@@ -2,6 +2,7 @@ import Home from "../Home";
 import {
   LessonButton,
   LessonButtonGroup,
+  LessonRadio,
   LessonRadioGroup,
   LessonTextfield,
   LessonTypography,
@@ -19,6 +20,7 @@ const routeList: RouteList[] = [
   { name: "Button", path: "/button", element: <LessonButton /> },
   { name: "ButtonGroup", path: "/buttonGroup", element: <LessonButtonGroup /> },
   { name: "Textfield", path: "/textfield", element: <LessonTextfield /> },
+  { name: "Radio", path: "/radio", element: <LessonRadio /> },
   { name: "RadioGroup", path: "/radioGroup", element: <LessonRadioGroup /> },
 ];
 
