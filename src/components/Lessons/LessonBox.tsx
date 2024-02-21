@@ -9,6 +9,7 @@ const LessonBox = () => {
         height: 100,
         color: "white",
         padding: "20px",
+        margin: "0 auto",
         "&:hover": {
           backgroundColor: "primary.light",
         },

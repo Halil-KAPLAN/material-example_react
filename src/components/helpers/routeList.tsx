@@ -8,6 +8,7 @@ import {
   LessonRadio,
   LessonRadioGroup,
   LessonSelect,
+  LessonStack,
   LessonTextfield,
   LessonTypography,
 } from "../Lessons";
@@ -38,6 +39,7 @@ const routeList: RouteList[] = [
     element: <LessonAutoComplete />,
   },
   { title: "Box", path: "/box", element: <LessonBox /> },
+  { title: "Stack", path: "/stack", element: <LessonStack /> },
 ];
 
 export default routeList;
