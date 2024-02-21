@@ -2,6 +2,7 @@ import Home from "../Home";
 import {
   LessonButton,
   LessonButtonGroup,
+  LessonCheckbox,
   LessonRadio,
   LessonRadioGroup,
   LessonSelect,
@@ -10,20 +11,25 @@ import {
 } from "../Lessons";
 
 interface RouteList {
-  name: string;
+  title: string;
   path: string;
   element: JSX.Element;
 }
 
 const routeList: RouteList[] = [
-  { name: "Home", path: "/", element: <Home /> },
-  { name: "Typography", path: "/typography", element: <LessonTypography /> },
-  { name: "Button", path: "/button", element: <LessonButton /> },
-  { name: "ButtonGroup", path: "/buttonGroup", element: <LessonButtonGroup /> },
-  { name: "Textfield", path: "/textfield", element: <LessonTextfield /> },
-  { name: "Radio", path: "/radio", element: <LessonRadio /> },
-  { name: "RadioGroup", path: "/radioGroup", element: <LessonRadioGroup /> },
-  { name: "Select", path: "/select", element: <LessonSelect /> },
+  { title: "Home", path: "/", element: <Home /> },
+  { title: "Typography", path: "/typography", element: <LessonTypography /> },
+  { title: "Button", path: "/button", element: <LessonButton /> },
+  {
+    title: "ButtonGroup",
+    path: "/buttonGroup",
+    element: <LessonButtonGroup />,
+  },
+  { title: "Textfield", path: "/textfield", element: <LessonTextfield /> },
+  { title: "Radio", path: "/radio", element: <LessonRadio /> },
+  { title: "RadioGroup", path: "/radioGroup", element: <LessonRadioGroup /> },
+  { title: "Select", path: "/select", element: <LessonSelect /> },
+  { title: "Checkbox", path: "/checkbox", element: <LessonCheckbox /> },
 ];
 
 export default routeList;

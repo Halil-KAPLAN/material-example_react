@@ -5,6 +5,7 @@ import LessonTextfield from "./LessonTextfield";
 import LessonRadioGroup from "./LessonRadioGroup";
 import LessonRadio from "./LessonRadio";
 import LessonSelect from "./LessonSelect";
+import LessonCheckbox from "./LessonCheckbox";
 
 export {
   LessonTypography,
@@ -14,4 +15,5 @@ export {
   LessonRadioGroup,
   LessonRadio,
   LessonSelect,
+  LessonCheckbox,
 };
