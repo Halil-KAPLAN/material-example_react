@@ -1,6 +1,7 @@
 import Home from "../Home";
 import {
   LessonAutoComplete,
+  LessonBox,
   LessonButton,
   LessonButtonGroup,
   LessonCheckbox,
@@ -36,6 +37,7 @@ const routeList: RouteList[] = [
     path: "/autoComplete",
     element: <LessonAutoComplete />,
   },
+  { title: "Box", path: "/box", element: <LessonBox /> },
 ];
 
 export default routeList;
