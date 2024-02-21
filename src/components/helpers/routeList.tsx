@@ -1,5 +1,6 @@
 import Home from "../Home";
 import {
+  LessonAutoComplete,
   LessonButton,
   LessonButtonGroup,
   LessonCheckbox,
@@ -30,6 +31,11 @@ const routeList: RouteList[] = [
   { title: "RadioGroup", path: "/radioGroup", element: <LessonRadioGroup /> },
   { title: "Select", path: "/select", element: <LessonSelect /> },
   { title: "Checkbox", path: "/checkbox", element: <LessonCheckbox /> },
+  {
+    title: "AutoComplete",
+    path: "/autoComplete",
+    element: <LessonAutoComplete />,
+  },
 ];
 
 export default routeList;
