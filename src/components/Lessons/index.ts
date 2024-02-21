@@ -9,6 +9,7 @@ import LessonCheckbox from "./LessonCheckbox";
 import LessonAutoComplete from "./LessonAutoComplete";
 import LessonBox from "./LessonBox";
 import LessonStack from "./LessonStack";
+import LessonGrid from "./LessonGrid";
 
 export {
   LessonTypography,
@@ -22,4 +23,5 @@ export {
   LessonAutoComplete,
   LessonBox,
   LessonStack,
+  LessonGrid,
 };

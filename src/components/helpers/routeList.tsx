@@ -5,6 +5,7 @@ import {
   LessonButton,
   LessonButtonGroup,
   LessonCheckbox,
+  LessonGrid,
   LessonRadio,
   LessonRadioGroup,
   LessonSelect,
@@ -40,6 +41,7 @@ const routeList: RouteList[] = [
   },
   { title: "Box", path: "/box", element: <LessonBox /> },
   { title: "Stack", path: "/stack", element: <LessonStack /> },
+  { title: "Grid", path: "/grid", element: <LessonGrid /> },
 ];
 
 export default routeList;
