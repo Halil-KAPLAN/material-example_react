@@ -10,6 +10,7 @@ import LessonAutoComplete from "./LessonAutoComplete";
 import LessonBox from "./LessonBox";
 import LessonStack from "./LessonStack";
 import LessonGrid from "./LessonGrid";
+import LessonCard from "./LessonCard";
 
 export {
   LessonTypography,
@@ -24,4 +25,5 @@ export {
   LessonBox,
   LessonStack,
   LessonGrid,
+  LessonCard,
 };
