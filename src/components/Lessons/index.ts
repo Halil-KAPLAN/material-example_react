@@ -11,6 +11,7 @@ import LessonBox from "./LessonBox";
 import LessonStack from "./LessonStack";
 import LessonGrid from "./LessonGrid";
 import LessonCard from "./LessonCard";
+import LessonAccordion from "./LessonAccordion";
 
 export {
   LessonTypography,
@@ -26,4 +27,5 @@ export {
   LessonStack,
   LessonGrid,
   LessonCard,
+  LessonAccordion,
 };
