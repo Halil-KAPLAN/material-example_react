@@ -1,6 +1,7 @@
 import Home from "../Home";
 import {
   LessonAccordion,
+  LessonAppBar,
   LessonAutoComplete,
   LessonBox,
   LessonButton,
@@ -46,6 +47,7 @@ const routeList: RouteList[] = [
   { title: "Grid", path: "/grid", element: <LessonGrid /> },
   { title: "Card", path: "/cards", element: <LessonCard /> },
   { title: "Accordion", path: "/accordion", element: <LessonAccordion /> },
+  { title: "App Bar", path: "/appBar", element: <LessonAppBar /> },
 ];
 
 export default routeList;

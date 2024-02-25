@@ -23,6 +23,8 @@
 
 .navbar .mainLink {
   margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar .main img {

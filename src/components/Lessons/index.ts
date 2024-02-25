@@ -12,6 +12,7 @@ import LessonStack from "./LessonStack";
 import LessonGrid from "./LessonGrid";
 import LessonCard from "./LessonCard";
 import LessonAccordion from "./LessonAccordion";
+import LessonAppBar from "./LessonAppBar";
 
 export {
   LessonTypography,
@@ -28,4 +29,5 @@ export {
   LessonGrid,
   LessonCard,
   LessonAccordion,
+  LessonAppBar,
 };
