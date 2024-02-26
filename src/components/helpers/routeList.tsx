@@ -4,6 +4,7 @@ import {
   LessonAppBar,
   LessonAutoComplete,
   LessonBox,
+  LessonBreadcrumbs,
   LessonButton,
   LessonButtonGroup,
   LessonCard,
@@ -54,6 +55,11 @@ const routeList: RouteList[] = [
   { title: "Image List", path: "/imageList", element: <LessonImageList /> },
   { title: "Paper", path: "/paper", element: <LessonPaper /> },
   { title: "Link", path: "/link", element: <LessonLink /> },
+  {
+    title: "Breadcrumbs",
+    path: "/breadcrumbs",
+    element: <LessonBreadcrumbs />,
+  },
 ];
 
 export default routeList;
