@@ -9,6 +9,7 @@ import {
   LessonCard,
   LessonCheckbox,
   LessonGrid,
+  LessonImageList,
   LessonRadio,
   LessonRadioGroup,
   LessonSelect,
@@ -48,6 +49,7 @@ const routeList: RouteList[] = [
   { title: "Card", path: "/cards", element: <LessonCard /> },
   { title: "Accordion", path: "/accordion", element: <LessonAccordion /> },
   { title: "App Bar", path: "/appBar", element: <LessonAppBar /> },
+  { title: "Image List", path: "/imageList", element: <LessonImageList /> },
 ];
 
 export default routeList;

@@ -1,4 +1,4 @@
-import filmsData from "../helpers/filmData";
+import filmsData from "../helpers/data/filmData";
 import { Autocomplete, TextField } from "@mui/material";
 
 const LessonAutoComplete = () => {

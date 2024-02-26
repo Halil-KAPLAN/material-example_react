@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import AppsIcon from "@mui/icons-material/Apps";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const LessonAppBar = () => {
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
@@ -27,11 +28,13 @@ const LessonAppBar = () => {
         <IconButton>
           <AppsIcon />
         </IconButton>
-        <Typography variant="h6" component="div">
-          Yes, This is Header :)
-        </Typography>
+        <Link style={{ color: "white", textDecoration: "none" }} to="/">
+          <Typography variant="h6" component="div" sx={{ cursor: "pointer" }}>
+            Home
+          </Typography>
+        </Link>
+
         <Stack direction="row" sx={{ marginLeft: "auto" }}>
-          <Button sx={{ color: "white" }}>Home</Button>
           <Button sx={{ color: "white" }} onClick={handleClick}>
             Products
           </Button>
