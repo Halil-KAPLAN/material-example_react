@@ -14,6 +14,7 @@ import LessonCard from "./LessonCard";
 import LessonAccordion from "./LessonAccordion";
 import LessonAppBar from "./LessonAppBar";
 import LessonImageList from "./LessonImageList";
+import LessonPaper from "./LessonPaper";
 
 export {
   LessonTypography,
@@ -32,4 +33,5 @@ export {
   LessonAccordion,
   LessonAppBar,
   LessonImageList,
+  LessonPaper,
 };
