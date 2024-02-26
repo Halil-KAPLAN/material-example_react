@@ -10,6 +10,7 @@ import {
   LessonCheckbox,
   LessonGrid,
   LessonImageList,
+  LessonLink,
   LessonPaper,
   LessonRadio,
   LessonRadioGroup,
@@ -52,6 +53,7 @@ const routeList: RouteList[] = [
   { title: "App Bar", path: "/appBar", element: <LessonAppBar /> },
   { title: "Image List", path: "/imageList", element: <LessonImageList /> },
   { title: "Paper", path: "/paper", element: <LessonPaper /> },
+  { title: "Link", path: "/link", element: <LessonLink /> },
 ];
 
 export default routeList;
