@@ -9,6 +9,7 @@ import {
   LessonButtonGroup,
   LessonCard,
   LessonCheckbox,
+  LessonDrawer,
   LessonGrid,
   LessonImageList,
   LessonLink,
@@ -60,6 +61,7 @@ const routeList: RouteList[] = [
     path: "/breadcrumbs",
     element: <LessonBreadcrumbs />,
   },
+  { title: "Drawer", path: "/drawer", element: <LessonDrawer /> },
 ];
 
 export default routeList;
