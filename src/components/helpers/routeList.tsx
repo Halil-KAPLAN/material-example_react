@@ -3,6 +3,7 @@ import {
   LessonAccordion,
   LessonAppBar,
   LessonAutoComplete,
+  LessonBadge,
   LessonBox,
   LessonBreadcrumbs,
   LessonButton,
@@ -62,6 +63,7 @@ const routeList: RouteList[] = [
     element: <LessonBreadcrumbs />,
   },
   { title: "Drawer", path: "/drawer", element: <LessonDrawer /> },
+  { title: "Badge", path: "/badge", element: <LessonBadge /> },
 ];
 
 export default routeList;

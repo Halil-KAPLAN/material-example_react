@@ -18,6 +18,7 @@ import LessonPaper from "./LessonPaper";
 import LessonLink from "./LessonLink";
 import LessonBreadcrumbs from "./LessonBreadcrumbs";
 import LessonDrawer from "./LessonDrawer";
+import LessonBadge from "./LessonBadge";
 
 export {
   LessonTypography,
@@ -40,4 +41,5 @@ export {
   LessonLink,
   LessonBreadcrumbs,
   LessonDrawer,
+  LessonBadge,
 };
