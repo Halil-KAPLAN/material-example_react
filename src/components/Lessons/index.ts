@@ -21,6 +21,7 @@ import LessonDrawer from "./LessonDrawer";
 import LessonBadge from "./LessonBadge";
 import LessonSpeedDial from "./LessonSpeedDial";
 import LessonBottomNavigation from "./LessonBottomNavigation";
+import LessonAvatar from "./LessonAvatar";
 
 export {
   LessonTypography,
@@ -46,4 +47,5 @@ export {
   LessonBadge,
   LessonSpeedDial,
   LessonBottomNavigation,
+  LessonAvatar,
 };

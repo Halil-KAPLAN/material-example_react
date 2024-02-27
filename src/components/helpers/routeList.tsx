@@ -3,6 +3,7 @@ import {
   LessonAccordion,
   LessonAppBar,
   LessonAutoComplete,
+  LessonAvatar,
   LessonBadge,
   LessonBottomNavigation,
   LessonBox,
@@ -71,6 +72,11 @@ const routeList: RouteList[] = [
     title: "Bottom Navigation",
     path: "/bottomNavigation",
     element: <LessonBottomNavigation />,
+  },
+  {
+    title: "Avatar",
+    path: "/avatar",
+    element: <LessonAvatar />,
   },
 ];
 
