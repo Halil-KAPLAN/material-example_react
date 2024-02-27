@@ -18,6 +18,7 @@ import {
   LessonRadio,
   LessonRadioGroup,
   LessonSelect,
+  LessonSpeedDial,
   LessonStack,
   LessonTextfield,
   LessonTypography,
@@ -64,6 +65,7 @@ const routeList: RouteList[] = [
   },
   { title: "Drawer", path: "/drawer", element: <LessonDrawer /> },
   { title: "Badge", path: "/badge", element: <LessonBadge /> },
+  { title: "SpeedDial", path: "/speedDial", element: <LessonSpeedDial /> },
 ];
 
 export default routeList;
