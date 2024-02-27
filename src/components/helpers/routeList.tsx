@@ -4,6 +4,7 @@ import {
   LessonAppBar,
   LessonAutoComplete,
   LessonBadge,
+  LessonBottomNavigation,
   LessonBox,
   LessonBreadcrumbs,
   LessonButton,
@@ -45,7 +46,7 @@ const routeList: RouteList[] = [
   { title: "Select", path: "/select", element: <LessonSelect /> },
   { title: "Checkbox", path: "/checkbox", element: <LessonCheckbox /> },
   {
-    title: "AutoComplete",
+    title: "Auto Complete",
     path: "/autoComplete",
     element: <LessonAutoComplete />,
   },
@@ -65,7 +66,12 @@ const routeList: RouteList[] = [
   },
   { title: "Drawer", path: "/drawer", element: <LessonDrawer /> },
   { title: "Badge", path: "/badge", element: <LessonBadge /> },
-  { title: "SpeedDial", path: "/speedDial", element: <LessonSpeedDial /> },
+  { title: "Speed Dial", path: "/speedDial", element: <LessonSpeedDial /> },
+  {
+    title: "Bottom Navigation",
+    path: "/bottomNavigation",
+    element: <LessonBottomNavigation />,
+  },
 ];
 
 export default routeList;
