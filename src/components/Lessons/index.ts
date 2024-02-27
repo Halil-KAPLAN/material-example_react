@@ -22,7 +22,7 @@ import LessonBadge from "./LessonBadge";
 import LessonSpeedDial from "./LessonSpeedDial";
 import LessonBottomNavigation from "./LessonBottomNavigation";
 import LessonAvatar from "./LessonAvatar";
-
+import LessonList from "./LessonList";
 export {
   LessonTypography,
   LessonButton,
@@ -48,4 +48,5 @@ export {
   LessonSpeedDial,
   LessonBottomNavigation,
   LessonAvatar,
+  LessonList,
 };

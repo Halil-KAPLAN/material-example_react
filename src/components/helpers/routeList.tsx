@@ -16,6 +16,7 @@ import {
   LessonGrid,
   LessonImageList,
   LessonLink,
+  LessonList,
   LessonPaper,
   LessonRadio,
   LessonRadioGroup,
@@ -73,11 +74,8 @@ const routeList: RouteList[] = [
     path: "/bottomNavigation",
     element: <LessonBottomNavigation />,
   },
-  {
-    title: "Avatar",
-    path: "/avatar",
-    element: <LessonAvatar />,
-  },
+  { title: "Avatar", path: "/avatar", element: <LessonAvatar /> },
+  { title: "List", path: "/list", element: <LessonList /> },
 ];
 
 export default routeList;
