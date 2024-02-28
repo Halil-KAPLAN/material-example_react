@@ -24,6 +24,7 @@ import {
   LessonSpeedDial,
   LessonStack,
   LessonTextfield,
+  LessonTooltip,
   LessonTypography,
 } from "../Lessons";
 
@@ -76,6 +77,7 @@ const routeList: RouteList[] = [
   },
   { title: "Avatar", path: "/avatar", element: <LessonAvatar /> },
   { title: "List", path: "/list", element: <LessonList /> },
+  { title: "Tooltip", path: "/tooltip", element: <LessonTooltip /> },
 ];
 
 export default routeList;

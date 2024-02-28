@@ -23,6 +23,8 @@ import LessonSpeedDial from "./LessonSpeedDial";
 import LessonBottomNavigation from "./LessonBottomNavigation";
 import LessonAvatar from "./LessonAvatar";
 import LessonList from "./LessonList";
+import LessonTooltip from "./LessonTooltip";
+
 export {
   LessonTypography,
   LessonButton,
@@ -49,4 +51,5 @@ export {
   LessonBottomNavigation,
   LessonAvatar,
   LessonList,
+  LessonTooltip,
 };

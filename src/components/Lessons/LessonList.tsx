@@ -8,7 +8,6 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
-import React from "react";
 
 const LessonList = () => {
   return (
