@@ -20,6 +20,7 @@ import {
   LessonLink,
   LessonList,
   LessonPaper,
+  LessonProgress,
   LessonRadio,
   LessonRadioGroup,
   LessonSelect,
@@ -84,6 +85,7 @@ const routeList: RouteList[] = [
   { title: "Alert", path: "/alert", element: <LessonAlert /> },
   { title: "Dialog", path: "/dialog", element: <LessonDialog /> },
   { title: "Snackbar", path: "/snackbar", element: <LessonSnackbar /> },
+  { title: "Progress", path: "/progress", element: <LessonProgress /> },
 ];
 
 export default routeList;
