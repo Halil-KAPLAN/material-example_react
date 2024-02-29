@@ -1,6 +1,7 @@
 import Home from "../Home";
 import {
   LessonAccordion,
+  LessonAlert,
   LessonAppBar,
   LessonAutoComplete,
   LessonAvatar,
@@ -75,9 +76,10 @@ const routeList: RouteList[] = [
     path: "/bottomNavigation",
     element: <LessonBottomNavigation />,
   },
-  { title: "Avatar", path: "/avatar", element: <LessonAvatar /> },
   { title: "List", path: "/list", element: <LessonList /> },
+  { title: "Avatar", path: "/avatar", element: <LessonAvatar /> },
   { title: "Tooltip", path: "/tooltip", element: <LessonTooltip /> },
+  { title: "Alert", path: "/alert", element: <LessonAlert /> },
 ];
 
 export default routeList;

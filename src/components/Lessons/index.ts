@@ -24,6 +24,7 @@ import LessonBottomNavigation from "./LessonBottomNavigation";
 import LessonAvatar from "./LessonAvatar";
 import LessonList from "./LessonList";
 import LessonTooltip from "./LessonTooltip";
+import LessonAlert from "./LessonAlert";
 
 export {
   LessonTypography,
@@ -52,4 +53,5 @@ export {
   LessonAvatar,
   LessonList,
   LessonTooltip,
+  LessonAlert,
 };
