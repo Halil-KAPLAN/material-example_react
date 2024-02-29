@@ -11,7 +11,8 @@ const LessonAccordion = () => {
   const [expanded, setExpanded] = useState<string | boolean>("");
 
   const handleExpandAccordion =
-    (accName: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
+    (accName: string) =>
+    (_event: React.SyntheticEvent, isExpanded: boolean) => {
       setExpanded(isExpanded && accName);
     };
 
