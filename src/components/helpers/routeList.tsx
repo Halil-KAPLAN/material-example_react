@@ -24,6 +24,7 @@ import {
   LessonRadio,
   LessonRadioGroup,
   LessonSelect,
+  LessonSkeleton,
   LessonSnackbar,
   LessonSpeedDial,
   LessonStack,
@@ -86,6 +87,7 @@ const routeList: RouteList[] = [
   { title: "Dialog", path: "/dialog", element: <LessonDialog /> },
   { title: "Snackbar", path: "/snackbar", element: <LessonSnackbar /> },
   { title: "Progress", path: "/progress", element: <LessonProgress /> },
+  { title: "Skeleton", path: "/skeleton", element: <LessonSkeleton /> },
 ];
 
 export default routeList;

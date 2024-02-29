@@ -28,6 +28,7 @@ import LessonAlert from "./LessonAlert";
 import LessonDialog from "./LessonDialog";
 import LessonSnackbar from "./LessonSnackbar";
 import LessonProgress from "./LessonProgress";
+import LessonSkeleton from "./LessonSkeleton";
 
 export {
   LessonTypography,
@@ -60,4 +61,5 @@ export {
   LessonDialog,
   LessonSnackbar,
   LessonProgress,
+  LessonSkeleton,
 };
