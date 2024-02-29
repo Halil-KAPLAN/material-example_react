@@ -13,6 +13,7 @@ import {
   LessonButtonGroup,
   LessonCard,
   LessonCheckbox,
+  LessonDialog,
   LessonDrawer,
   LessonGrid,
   LessonImageList,
@@ -80,6 +81,7 @@ const routeList: RouteList[] = [
   { title: "Avatar", path: "/avatar", element: <LessonAvatar /> },
   { title: "Tooltip", path: "/tooltip", element: <LessonTooltip /> },
   { title: "Alert", path: "/alert", element: <LessonAlert /> },
+  { title: "Dialog", path: "/dialog", element: <LessonDialog /> },
 ];
 
 export default routeList;

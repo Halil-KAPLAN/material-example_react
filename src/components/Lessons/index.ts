@@ -25,6 +25,7 @@ import LessonAvatar from "./LessonAvatar";
 import LessonList from "./LessonList";
 import LessonTooltip from "./LessonTooltip";
 import LessonAlert from "./LessonAlert";
+import LessonDialog from "./LessonDialog";
 
 export {
   LessonTypography,
@@ -54,4 +55,5 @@ export {
   LessonList,
   LessonTooltip,
   LessonAlert,
+  LessonDialog,
 };
