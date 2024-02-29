@@ -26,6 +26,7 @@ import LessonList from "./LessonList";
 import LessonTooltip from "./LessonTooltip";
 import LessonAlert from "./LessonAlert";
 import LessonDialog from "./LessonDialog";
+import LessonSnackbar from "./LessonSnackbar";
 
 export {
   LessonTypography,
@@ -56,4 +57,5 @@ export {
   LessonTooltip,
   LessonAlert,
   LessonDialog,
+  LessonSnackbar,
 };
