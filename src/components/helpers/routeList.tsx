@@ -14,6 +14,7 @@ import {
   LessonCard,
   LessonCheckbox,
   LessonDateAndTimePicker,
+  LessonDateRange,
   LessonDialog,
   LessonDrawer,
   LessonGrid,
@@ -102,6 +103,7 @@ const routeList: RouteList[] = [
     path: "/dateAndTimePicker",
     element: <LessonDateAndTimePicker />,
   },
+  { title: "DateRange", path: "/dateRange", element: <LessonDateRange /> },
 ];
 
 export default routeList;

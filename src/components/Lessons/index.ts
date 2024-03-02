@@ -32,6 +32,7 @@ import LessonSkeleton from "./LessonSkeleton";
 import LessonLoadingButton from "./LessonLoadingButton";
 import LessonTable from "./LessonTable";
 import LessonDateAndTimePicker from "./LessonDateAndTimePicker";
+import LessonDateRange from "./LessonDateRange";
 
 export {
   LessonTypography,
@@ -68,4 +69,5 @@ export {
   LessonLoadingButton,
   LessonTable,
   LessonDateAndTimePicker,
+  LessonDateRange,
 };
