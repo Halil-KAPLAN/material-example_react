@@ -31,6 +31,7 @@ import LessonProgress from "./LessonProgress";
 import LessonSkeleton from "./LessonSkeleton";
 import LessonLoadingButton from "./LessonLoadingButton";
 import LessonTable from "./LessonTable";
+import LessonDateAndTimePicker from "./LessonDateAndTimePicker";
 
 export {
   LessonTypography,
@@ -66,4 +67,5 @@ export {
   LessonSkeleton,
   LessonLoadingButton,
   LessonTable,
+  LessonDateAndTimePicker,
 };

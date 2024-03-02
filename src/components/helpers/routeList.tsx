@@ -13,6 +13,7 @@ import {
   LessonButtonGroup,
   LessonCard,
   LessonCheckbox,
+  LessonDateAndTimePicker,
   LessonDialog,
   LessonDrawer,
   LessonGrid,
@@ -96,6 +97,11 @@ const routeList: RouteList[] = [
   { title: "Progress", path: "/progress", element: <LessonProgress /> },
   { title: "Skeleton", path: "/skeleton", element: <LessonSkeleton /> },
   { title: "Table", path: "/table", element: <LessonTable /> },
+  {
+    title: "DatePicker & TimePicker",
+    path: "/dateAndTimePicker",
+    element: <LessonDateAndTimePicker />,
+  },
 ];
 
 export default routeList;
