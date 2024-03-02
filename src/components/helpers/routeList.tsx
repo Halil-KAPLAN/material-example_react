@@ -32,6 +32,7 @@ import {
   LessonSpeedDial,
   LessonStack,
   LessonTable,
+  LessonTabs,
   LessonTextfield,
   LessonTooltip,
   LessonTypography,
@@ -104,6 +105,7 @@ const routeList: RouteList[] = [
     element: <LessonDateAndTimePicker />,
   },
   { title: "DateRange", path: "/dateRange", element: <LessonDateRange /> },
+  { title: "Tabs", path: "/tabs", element: <LessonTabs /> },
 ];
 
 export default routeList;
