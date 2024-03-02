@@ -29,6 +29,7 @@ import LessonDialog from "./LessonDialog";
 import LessonSnackbar from "./LessonSnackbar";
 import LessonProgress from "./LessonProgress";
 import LessonSkeleton from "./LessonSkeleton";
+import LessonLoadingButton from "./LessonLoadingButton";
 
 export {
   LessonTypography,
@@ -62,4 +63,5 @@ export {
   LessonSnackbar,
   LessonProgress,
   LessonSkeleton,
+  LessonLoadingButton,
 };
