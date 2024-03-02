@@ -29,6 +29,7 @@ import {
   LessonSnackbar,
   LessonSpeedDial,
   LessonStack,
+  LessonTable,
   LessonTextfield,
   LessonTooltip,
   LessonTypography,
@@ -94,6 +95,7 @@ const routeList: RouteList[] = [
   { title: "Snackbar", path: "/snackbar", element: <LessonSnackbar /> },
   { title: "Progress", path: "/progress", element: <LessonProgress /> },
   { title: "Skeleton", path: "/skeleton", element: <LessonSkeleton /> },
+  { title: "Table", path: "/table", element: <LessonTable /> },
 ];
 
 export default routeList;

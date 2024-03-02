@@ -8,11 +8,13 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        {routeList.map(({ path, element }, i) => (
-          <Route path={path} element={element} key={i}></Route>
-        ))}
-      </Routes>
+      <div className="center">
+        <Routes>
+          {routeList.map(({ path, element }, i) => (
+            <Route path={path} element={element} key={i}></Route>
+          ))}
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }

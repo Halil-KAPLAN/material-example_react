@@ -3,6 +3,10 @@
   text-align: center; */
 }
 
+.center {
+  margin: 10px;
+}
+
 /* Navbar */
 .navbar {
   width: 100%;
