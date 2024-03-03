@@ -22,6 +22,7 @@ import {
   LessonLink,
   LessonList,
   LessonLoadingButton,
+  LessonMasonry,
   LessonPaper,
   LessonProgress,
   LessonRadio,
@@ -106,6 +107,7 @@ const routeList: RouteList[] = [
   },
   { title: "DateRange", path: "/dateRange", element: <LessonDateRange /> },
   { title: "Tabs", path: "/tabs", element: <LessonTabs /> },
+  { title: "Masonry", path: "/masonry", element: <LessonMasonry /> },
 ];
 
 export default routeList;
