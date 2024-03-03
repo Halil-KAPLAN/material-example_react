@@ -35,6 +35,7 @@ import {
   LessonTable,
   LessonTabs,
   LessonTextfield,
+  LessonThemeCustomization,
   LessonTimeLine,
   LessonTooltip,
   LessonTypography,
@@ -110,6 +111,11 @@ const routeList: RouteList[] = [
   { title: "Tabs", path: "/tabs", element: <LessonTabs /> },
   { title: "Masonry", path: "/masonry", element: <LessonMasonry /> },
   { title: "TimeLine", path: "/timeLine", element: <LessonTimeLine /> },
+  {
+    title: "Theme Customization",
+    path: "/themeCustomization",
+    element: <LessonThemeCustomization />,
+  },
 ];
 
 export default routeList;

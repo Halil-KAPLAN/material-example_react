@@ -36,6 +36,7 @@ import LessonDateRange from "./LessonDateRange";
 import LessonTabs from "./LessonTabs";
 import LessonMasonry from "./LessonMasonry";
 import LessonTimeLine from "./LessonTimeLine";
+import LessonThemeCustomization from "./LessonThemeCustomization";
 
 export {
   LessonTypography,
@@ -76,4 +77,5 @@ export {
   LessonTabs,
   LessonMasonry,
   LessonTimeLine,
+  LessonThemeCustomization,
 };
