@@ -35,6 +35,7 @@ import {
   LessonTable,
   LessonTabs,
   LessonTextfield,
+  LessonTimeLine,
   LessonTooltip,
   LessonTypography,
 } from "../Lessons";
@@ -108,6 +109,7 @@ const routeList: RouteList[] = [
   { title: "DateRange", path: "/dateRange", element: <LessonDateRange /> },
   { title: "Tabs", path: "/tabs", element: <LessonTabs /> },
   { title: "Masonry", path: "/masonry", element: <LessonMasonry /> },
+  { title: "TimeLine", path: "/timeLine", element: <LessonTimeLine /> },
 ];
 
 export default routeList;

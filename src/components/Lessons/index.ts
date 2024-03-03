@@ -35,6 +35,7 @@ import LessonDateAndTimePicker from "./LessonDateAndTimePicker";
 import LessonDateRange from "./LessonDateRange";
 import LessonTabs from "./LessonTabs";
 import LessonMasonry from "./LessonMasonry";
+import LessonTimeLine from "./LessonTimeLine";
 
 export {
   LessonTypography,
@@ -74,4 +75,5 @@ export {
   LessonDateRange,
   LessonTabs,
   LessonMasonry,
+  LessonTimeLine,
 };
